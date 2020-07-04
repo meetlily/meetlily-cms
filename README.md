@@ -1,3 +1,3 @@
-# Strapi application
+# Meetlily CMS
 
-A quick description of your strapi application
+Built using Strapi Headless CMS
