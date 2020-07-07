@@ -535,7 +535,9 @@
           "category": {
             "required": [
               "id",
-              "Name"
+              "Name",
+              "link",
+              "external_id"
             ],
             "properties": {
               "id": {
@@ -549,6 +551,12 @@
                 "items": {
                   "type": "string"
                 }
+              },
+              "link": {
+                "type": "string"
+              },
+              "external_id": {
+                "type": "integer"
               }
             }
           }

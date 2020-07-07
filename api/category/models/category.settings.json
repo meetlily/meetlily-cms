@@ -17,6 +17,15 @@
     "products": {
       "collection": "product",
       "via": "category"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "external_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true
     }
   }
 }
