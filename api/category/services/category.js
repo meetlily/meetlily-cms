@@ -5,4 +5,7 @@
  * to customize this service
  */
 
-module.exports = {};
+module.exports = {
+let test = 'this is a test';
+
+};
